@@ -1,0 +1,28 @@
+Welcome to ProjectPiir
+Use this page to provide some of your information into our databases <br/>
+
+<form action="user/create" method="post">
+
+<!-- this uses ruby method helpers
+	Name <br/>
+	<%= text_field_tag('user[name]') %> <br/>
+	School <br/>
+	<%= text_field_tag('user[school]') %> <br/>
+	Year <br/>
+	<%= text_field_tag('user[year]') %> <br/>
+
+	<%= submit_tag("Enter user information") %> <br/>
+	
+-->
+
+<!-- This is pure html -->
+Name</br>
+<input type="text" name="user[name]"/> <br/>
+Year in school<br/>
+<input type="text" name="user[academic_standing]" /> <br/>
+Email<br/>
+<input type="text" name="user[email]" /><br/>
+
+<input type="submit" name="commit" value="Create user"/>
+
+</form>
