@@ -1,12 +1,10 @@
 Test2::Application.routes.draw do
   
-  root :to  => "home#index"
+  root :to  => "home#erb_index"
   #root :to => "pages#show", :id => '1'
 	
-  resources :locations do
-    resources :users
-  end
-  
+  resources :locations
+  resources :users
   resources :tags
   
 
