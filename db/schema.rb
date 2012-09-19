@@ -19,6 +19,7 @@ ActiveRecord::Schema.define(:version => 20120917015140) do
     t.string   "street"
     t.integer  "house_number"
     t.string   "school"
+    t.integer  "zip_code"
     t.datetime "created_at",   :null => false
     t.datetime "updated_at",   :null => false
   end

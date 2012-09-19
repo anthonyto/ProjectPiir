@@ -6,6 +6,7 @@ class CreateLocations < ActiveRecord::Migration
       t.string :street
       t.integer :house_number
       t.string :school
+      t.integer :zip_code
 
       t.timestamps
     end
