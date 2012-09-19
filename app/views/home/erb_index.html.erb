@@ -1,0 +1,18 @@
+This is the erb page<br/> <br/>
+
+Welcome to ProjectPiir
+Use this page to provide some of your information into our databases <br/>
+
+<form action="users/create" method="post">
+
+	Name <br/>
+	<%= text_field_tag('user[name]') %> <br/>
+	School <br/>
+	<%= text_field_tag('user[school]') %> <br/>
+	Year <br/>
+	<%= text_field_tag('user[year]') %> <br/>
+
+	<%= submit_tag("Enter user information") %> <br/>
+
+
+</form>
